@@ -1,0 +1,19 @@
+{
+  "name": "node-iplocation",
+  "version": "1.0.0",
+  "description": "Testing node-iplocate",
+  "main": "server.js",
+  "author": "Mutai Mwiti",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "node-iplocate": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
